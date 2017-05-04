@@ -1,2 +1,3 @@
   name: Oscar ZHOU, Technology achieves dream
   markdown: kramdown
+  permalink: /blog/:year/:month/:day/:title
