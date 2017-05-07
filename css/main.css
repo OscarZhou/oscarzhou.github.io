@@ -12,7 +12,7 @@ body {
 .navbar-brand {
     float: left;
     height: 50px;
-    padding: 15px 15px;
+    padding: 15px 15px 15px 200px;
     font-size: 18px;
     line-height: 20px;
     font-weight: bold;
@@ -23,6 +23,13 @@ nav ul, footer ul {
     list-style: none;
     font-size: 18px;
     font-weight: bold;
+}
+
+@media (min-width: 768px){
+    .navbar-right {
+        float: right !important;
+        margin-right: 200px;
+    }
 }
 
 nav ul li, footer ul li {
