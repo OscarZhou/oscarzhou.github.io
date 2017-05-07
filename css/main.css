@@ -1,21 +1,28 @@
 body {
     margin: 60px auto;
     width: 100%;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     margin-top: 0px;
+    padding-top: 50px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
     color: #bbb;
+    transition: all 0.5s;
 }
 
 .navbar-brand {
     float: left;
     height: 50px;
-    padding: 15px 15px 15px 200px;
     font-size: 18px;
     line-height: 20px;
     font-weight: bold;
+}
+
+.cbp-af-header-shrink {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    opacity: 0.9;
 }
 
 nav ul, footer ul {
@@ -25,12 +32,36 @@ nav ul, footer ul {
     font-weight: bold;
 }
 
-@media (min-width: 768px){
+/* Adjust the left and right margin of header*/
+@media (min-width: 768px) {
+    .navbar-brand {
+        padding: 15px 15px 15px 50px;
+    }
+
     .navbar-right {
         float: right !important;
-        margin-right: 200px;
+        margin-right: 50px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        padding: 15px 15px 15px 150px;
+    }
+
+    .navbar-right {
+        float: right !important;
+        margin-right: 150px;
     }
 }
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        padding: 15px 15px;
+    }
+}
+/* Adjust the left and right margin of header*/
 
 nav ul li, footer ul li {
     display: inline;
@@ -57,13 +88,22 @@ p {
     color: #333;
 }
 
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 footer {
-    border-top: 1px solid #000;
     font-size: .8em;
     width: 100%;
-    margin: 60px auto;
+    margin: 40px auto;
     margin-bottom: 0px;
     background-color: #101010;
+    margin-top: 80px;
 }
 
 .navbar-default {
@@ -75,7 +115,7 @@ footer div {
     text-align: center;
     font-size: medium;
     font-weight: bold;
-    margin: 15px;
+    margin-bottom: 5px;
 }
 
 footer h5 {
@@ -103,3 +143,24 @@ ul.posts li {
     list-style: none;
 }
 
+
+/* content style*/
+.content {
+    margin: 10px auto;
+}
+
+section {
+    text-align: center;
+    padding: 10px;
+}
+
+.profile {
+    height: auto;
+    padding: 20px;
+    border: 2px solid #333;
+    font-size: 12px;
+}
+
+.description {
+    text-align: center;
+}

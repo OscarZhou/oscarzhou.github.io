@@ -11,36 +11,34 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
-			<header>
-				<nav class="navbar navbar-inverse">
-					<div class="container-fluid">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<a class="navbar-brand" href="#Home">Home</a>
-						</div>
+            <header>
+                <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header" role="navigation">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#Home">Home</a>
+                        </div>
 
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav navbar-right">
-								<li><a href="#CV">CV</a></li>
-								<li><a href="#Blog">Blog</a></li>
-								<li><a href="#Story">Story</a></li>
-								<li><a href="#About">About</a></li>
-							</ul>
-						</div><!-- /.navbar-collapse -->
-					</div><!-- /.container-fluid -->
-				</nav>
-			</header>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#CV">CV</a></li>
+                                <li><a href="#Blog">Blog</a></li>
+                                <li><a href="#Story">Story</a></li>
+                                <li><a href="#About">About</a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+            </header>
 
-
-
-			<div class="container">
+			<div>
 			
 			{{ content }}
 			
@@ -49,20 +47,23 @@
 
             <footer>
                 <nav class="navbar navbar-default navbar-fixed-bottom">
-                    <div class="container">
+                    <div class="container-fluid">
                         <a href="https://github.com/oscarzhou"><i class="fa fa-github"></i></a>
                         <a href="http://www.linkedin.com/in/oscarzhou1989/"><i class="fa fa-linkedin"></i></a>
                         <a href="https://www.instagram.com/oscar.zhou.nz"><i class="fa fa-instagram"></i></a>
                         <a href="https://twitter.com/oscarzhou89"><i class="fa fa-twitter"></i></a>
                         <a href="#"><i class="fa fa-rss"></i></a>
                     </div>
-                    <div class="col-sm-12">
-                        <h5>Copyright 2017, Oscar Zhou</h5>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h5>Copyright 2017, Oscar Zhou</h5>
+                        </div>
                     </div>
                 </nav>
             </footer>
-
             <script src="../scripts/jquery-3.1.1.js"></script>
             <script src="../scripts/bootstrap.js"></script>
+            <script src="../scripts/classie.js"></script>
+            <script src="../scripts/cbpAnimatedHeader.js"></script>
 		</body>
 	</html>
