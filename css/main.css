@@ -1,11 +1,27 @@
 body {
     margin: 60px auto;
     width: 70%;
-}
-nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #bbb;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+nav ul, footer ul {
     padding: 0px;
     list-style: none;
+    font-size: 18px;
     font-weight: bold;
 }
 nav ul li, footer ul li {
@@ -21,7 +37,6 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
     font-size: 1.5em;
@@ -33,8 +48,8 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
