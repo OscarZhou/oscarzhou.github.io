@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 100%;
+    height: 100%;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     margin-top: 0px;
     padding-top: 50px;
@@ -102,8 +103,9 @@ footer {
     width: 100%;
     margin: 40px auto;
     margin-bottom: 0px;
-    background-color: #101010;
+    background-color: #222;
     margin-top: 80px;
+
 }
 
 .navbar-default {
@@ -143,24 +145,50 @@ ul.posts li {
     list-style: none;
 }
 
+.navbar-fixed-bottom {
+    bottom: 0;
+    margin-bottom: 0;
+    border-width: 0px 0 0;
+}
 
 /* content style*/
 .content {
     margin: 10px auto;
+    height: 100%;
 }
 
 section {
     text-align: center;
-    padding: 10px;
 }
 
 .profile {
-    height: auto;
+    height: 100%;
     padding: 20px;
-    border: 2px solid #333;
     font-size: 12px;
 }
 
 .description {
     text-align: center;
 }
+
+/* center a div vertically */
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-left: 5px solid #222;
+    border-right: 5px solid #222;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    /*width:*/ /*whatever width you want*/
+}
+/* center a div vertically */
