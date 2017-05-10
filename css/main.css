@@ -43,7 +43,6 @@ nav ul, footer ul {
         float: right !important;
         margin-right: 50px;
     }
-
 }
 
 @media (min-width: 992px) {
@@ -105,7 +104,6 @@ footer {
     margin-bottom: 0px;
     background-color: #222;
     margin-top: 80px;
-
 }
 
 .navbar-default {
@@ -152,18 +150,12 @@ ul.posts li {
 }
 
 /* content style*/
-.content {
-    margin: 10px auto;
-    height: 100%;
-}
-
 section {
     text-align: center;
 }
 
 .profile {
     height: 100%;
-    padding: 20px;
     font-size: 12px;
 }
 
@@ -184,11 +176,85 @@ section {
 .middle {
     display: table-cell;
     vertical-align: middle;
+    margin-top: -10px;
 }
 
 .inner {
     margin-left: auto;
     margin-right: auto;
     /*width:*/ /*whatever width you want*/
+    margin-top: -80px; /*adjust the distance to top*/
 }
 /* center a div vertically */
+
+
+/* CV*/
+.cv {
+    height: 100%;
+    font-size: 12px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Merriweather', Georgia, Times;
+}
+
+.name {
+    padding-top: 10px;
+    font-weight: 700;
+    text-align: left;
+}
+
+address {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cv section p {
+    text-align: left;
+    font-size: 16px;
+}
+
+.cv section h2 {
+    text-align: left;
+    margin-top: 2px;
+    padding-top: 2px;
+    margin-bottom: 5px;
+}
+
+span.cv_desc {
+    display: block;
+    text-align: left;
+    font-size: 16px;
+}
+
+span.cv_detail {
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+.title2 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cv ul {
+    text-align: left;
+    font-size: 16px;
+}
+
+.date {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cv a {
+    position: absolute;
+    right: 10px;
+    top: 130px;
+    z-index: 5;
+}
