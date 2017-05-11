@@ -171,6 +171,7 @@ section {
     width: 100%;
     border-left: 5px solid #222;
     border-right: 5px solid #222;
+    font-family: 'Merriweather', Georgia, Times;
 }
 
 .middle {
@@ -256,3 +257,34 @@ span.cv_detail {
     margin-top: 120px;
 }
 
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #333;
+    border-color: #555;
+}
+
+
+/* About */
+.about {
+    text-align: left;
+    font-size: 16px;
+}
+
+.about p{
+    text-align: left;
+}
+
+.about ul{
+    font-size: 18px;
+    text-align: left;
+}
+
+.about a {
+    text-decoration: none;
+    color: #2690ec;
+}
+
+.about a:hover {
+    text-decoration: underline;
+    color: #2e89d7;
+}
