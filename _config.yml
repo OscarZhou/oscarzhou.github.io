@@ -1,6 +1,7 @@
   name: Oscar ZHOU, Technology Empowers Dream
   markdown: kramdown
   permalink: /blog/:year/:month/:day/:title
+  permalink: /:categories/:title/
   paginate: 5
   paginate_path: "/blog/page:num/"
   gems:
