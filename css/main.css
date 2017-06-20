@@ -275,6 +275,8 @@ span.cv_detail {
     padding-bottom: 10px;
     border-bottom: solid 1px #000000;
     margin-top: 250px;
+    text-align: right;
+    padding-right: 20px;
 }
 .blogs {
     padding-top: 30px;
