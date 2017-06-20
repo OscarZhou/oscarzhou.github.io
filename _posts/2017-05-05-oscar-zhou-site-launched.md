@@ -1,13 +1,12 @@
 ---
-layout: post
 title: "Oscar Zhou, Technology Empowers Dream, Launches Site"
 date: 2017-05-05
-categories: Other
-tags: [hello]
 
 ---
 
-Hey guys, I am Oscar and I am so excited to launch this blog, which is a wonderful media to connect you and record my growth.
+Hey guys, 
+
+I am Oscar and I am so excited to launch this blog, which is a wonderful media to connect you and to record my growth.
 
 My current goal is to be a full-stack .Net developer. This blog will witness everything.
 
