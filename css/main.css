@@ -134,20 +134,7 @@ footer a:hover {
     color: white;
 }
 
-ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
-}
 
-ul.posts li {
-    list-style: none;
-}
-
-.navbar-fixed-bottom {
-    bottom: 0;
-    margin-bottom: 0;
-    border-width: 0px 0 0;
-}
 
 /* content style*/
 section {
@@ -157,6 +144,7 @@ section {
 .profile {
     height: 100%;
     font-size: 12px;
+    padding-top: 100px;
 }
 
 .description {
@@ -169,8 +157,8 @@ section {
     position: absolute;
     height: 90%;
     width: 100%;
-    border-left: 5px solid #222;
-    border-right: 5px solid #222;
+    //border-left: 5px solid #222;
+    //border-right: 5px solid #222;
     font-family: 'Merriweather', Georgia, Times;
 }
 
@@ -184,7 +172,7 @@ section {
     margin-left: auto;
     margin-right: auto;
     /*width:*/ /*whatever width you want*/
-    margin-top: -80px; /*adjust the distance to top*/
+    margin-top: -170px; /*adjust the distance to top*/
 }
 /* center a div vertically */
 
@@ -193,9 +181,14 @@ section {
 .cv {
     height: 100%;
     font-size: 12px;
-    margin-top: 50px;
+    margin-top: 230px;
     margin-bottom: 100px;
     font-family: 'Merriweather', Georgia, Times;
+}
+
+.cv h2{
+    border-bottom: solid 1px #000000;
+    padding-bottom: 10px;
 }
 
 .name {
@@ -263,6 +256,47 @@ span.cv_detail {
     border-color: #555;
 }
 
+/* Blog */
+.post{
+    text-align: left;
+    margin-top: -200px;
+}
+
+.post h1 {
+    text-align: left;
+}
+
+
+.post span{
+    text-align: right;
+}
+
+.blog-title{
+    padding-bottom: 10px;
+    border-bottom: solid 1px #000000;
+    margin-top: 250px;
+    text-align: right;
+    padding-right: 20px;
+}
+.blogs {
+    padding-top: 30px;
+    text-align: left;
+}
+
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+.navbar-fixed-bottom {
+    bottom: 0;
+    margin-bottom: 0;
+    border-width: 0px 0 0;
+}
 
 /* About */
 .about {
