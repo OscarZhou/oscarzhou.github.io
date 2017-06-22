@@ -48,9 +48,6 @@ nav ul, footer ul {
         margin-right: 50px;
     }
 
-    .post{
-        margin-top: -200px;
-    }
 
     .blog-title{
         padding-bottom: 10px;
@@ -71,9 +68,6 @@ nav ul, footer ul {
         margin-right: 150px;
     }
 
-    .post{
-        margin-top: -200px;
-    }
 
     .blog-title{
         padding-bottom: 10px;
@@ -174,6 +168,7 @@ section {
     height: 100%;
     font-size: 12px;
     padding-top: 100px;
+    margin-bottom: 200px;
 }
 
 .description {
@@ -289,6 +284,7 @@ span.cv_detail {
 .post{
     text-align: left;
     margin-top: 100px;
+    margin-bottom: 200px;
 }
 
 .post h1 {
