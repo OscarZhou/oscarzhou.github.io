@@ -7,6 +7,10 @@ body {
     padding-top: 50px;
 }
 
+header{
+    margin-bottom: -50px;
+}
+
 .navbar-inverse .navbar-nav > li > a {
     color: #bbb;
     transition: all 0.5s;
@@ -43,6 +47,15 @@ nav ul, footer ul {
         float: right !important;
         margin-right: 50px;
     }
+
+
+    .blog-title{
+        padding-bottom: 10px;
+        border-bottom: solid 1px #000000;
+        margin-top: 250px;
+        text-align: right;
+        padding-right: 20px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -54,6 +67,16 @@ nav ul, footer ul {
         float: right !important;
         margin-right: 150px;
     }
+
+
+    .blog-title{
+        padding-bottom: 10px;
+        border-bottom: solid 1px #000000;
+        margin-top: 250px;
+        text-align: right;
+        padding-right: 20px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -145,6 +168,7 @@ section {
     height: 100%;
     font-size: 12px;
     padding-top: 100px;
+    margin-bottom: 200px;
 }
 
 .description {
@@ -172,7 +196,7 @@ section {
     margin-left: auto;
     margin-right: auto;
     /*width:*/ /*whatever width you want*/
-    margin-top: -170px; /*adjust the distance to top*/
+    /*margin-top: -170px; !*adjust the distance to top*!*/
 }
 /* center a div vertically */
 
@@ -181,7 +205,7 @@ section {
 .cv {
     height: 100%;
     font-size: 12px;
-    margin-top: 230px;
+    /*margin-top: 230px;*/
     margin-bottom: 100px;
     font-family: 'Merriweather', Georgia, Times;
 }
@@ -259,7 +283,8 @@ span.cv_detail {
 /* Blog */
 .post{
     text-align: left;
-    margin-top: -200px;
+    margin-top: 100px;
+    margin-bottom: 200px;
 }
 
 .post h1 {
@@ -274,9 +299,10 @@ span.cv_detail {
 .blog-title{
     padding-bottom: 10px;
     border-bottom: solid 1px #000000;
-    margin-top: 250px;
+    margin-top: 0px;
     text-align: right;
     padding-right: 20px;
+    margin-bottom: 10px;
 }
 .blogs {
     padding-top: 30px;
