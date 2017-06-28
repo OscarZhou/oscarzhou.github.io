@@ -1,5 +1,5 @@
 ---
-title: "Read and write files in C#"
+title: "Read and Write Files in C#"
 date: 2017-05-09
 
 ---

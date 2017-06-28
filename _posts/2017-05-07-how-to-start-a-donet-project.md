@@ -1,5 +1,5 @@
 ---
-title: "How to start a .Net project in a fast way?"
+title: "How to Start a .Net Project in a Fast Way?"
 date: 2017-05-07
 
 ---

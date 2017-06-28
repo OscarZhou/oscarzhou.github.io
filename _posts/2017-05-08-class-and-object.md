@@ -1,5 +1,5 @@
 ---
-title: "Class and object"
+title: "Class and Object"
 date: 2017-05-08
 
 ---
