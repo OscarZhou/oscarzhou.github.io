@@ -170,7 +170,7 @@ The default setting is kind of like "set this page as a start up page in web for
   
 ***
 
-I will introduce the implementation of the calculator next time. Please go to [The study of ASP.NET MVC (The sample of the calculator)](http://oscarzhou.co.nz)
+I will introduce the implementation of the calculator next time. Please go to [The study of ASP.NET MVC (The sample of the calculator)](http://oscarzhou.co.nz/blog/2017/05/14/the-study-of-aspnet-mvc-calculator)
 
 
 
