@@ -93,7 +93,7 @@ nav ul li, footer ul li {
 
 a {
     text-decoration: none;
-    color: #999;
+    color: #337ab7;
 }
 
 a:hover {
@@ -318,11 +318,37 @@ ul.posts li {
     list-style: none;
 }
 
+ul.posts li span, a{
+    margin-right: 2px;
+}
+
 .navbar-fixed-bottom {
     bottom: 0;
     margin-bottom: 0;
     border-width: 0px 0 0;
 }
+
+/* Categories */
+.cates{
+    padding-bottom: 10px;
+    border-bottom: solid 1px #000000;
+}
+
+.cates a{
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.cates .btn-primary:active, .cates .btn-primary.active, .cates .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #777;
+    border-color: #999;
+}
+
+.cates .btn-primary:hover{
+    background-color: #333;
+}
+
 
 /* About */
 .about {

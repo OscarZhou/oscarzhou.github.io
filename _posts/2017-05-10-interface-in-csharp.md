@@ -1,6 +1,8 @@
 ---
 title: "Interface"
 date: 2017-05-10
+category: C#
+tags: [CSharp, theory, interface]
 
 ---
 
@@ -8,6 +10,7 @@ The birth of the interface make software development many convenient. We design 
 
 <p align="center">
   <img src="/images/post/20170510001.png" alt="Hardware interface"/>
+  <center><h4><b>Figure 1: Hardware interface</b></h4></center>
 </p>
 
 Different CPU manufactured by different companies can be used on a same motherboard. It is because the manufacturer who produces the motherboard creates a public hardware interface for all CPU manufacturers so that CPU manafacturers can connect the same motherboard with their own CPU implementation.  
