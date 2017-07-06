@@ -1,8 +1,8 @@
   name: Oscar ZHOU, Technology Empowers Dream
   markdown: kramdown
-  permalink: /blog/:year/:month/:day/:title
-  permalink: /:categories/:title/
+  permalink: /blog/:categories/:year/:month/:day/:title
   paginate: 5
+  email: oscarzhou1989@gmail.com
   paginate_path: "/blog/page:num/"
   gems:
   - jekyll-sitemap

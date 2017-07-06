@@ -1,0 +1,24 @@
+---
+layout: post
+title: C#
+
+---
+
+<div class="blogs">
+    <ul class="posts">
+        {% comment %}
+        =======================
+        The purpose of this snippet is to list all your posts posted with a certain tag.
+        =======================
+        {% endcomment %}
+        <ul>
+            {% for post in site.posts %}
+            {% if post.category == page.title %}
+                    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+
+            {% endif %}
+            {% endfor %}
+        </ul>
+
+    </ul>
+</div>
