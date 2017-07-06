@@ -1,6 +1,8 @@
 ---
 title: "The study of ASP.NET MVC (The sample of calculator)"
 date: 2017-05-14
+category: .Net
+tags: [.Net, MVC, example]
 
 ---
 

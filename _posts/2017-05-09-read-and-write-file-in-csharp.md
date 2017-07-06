@@ -1,6 +1,8 @@
 ---
 title: "Read and Write Files in C#"
 date: 2017-05-09
+category: C#
+tags: [basic, theory, CSharp]
 
 ---
 

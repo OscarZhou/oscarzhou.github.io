@@ -1,6 +1,8 @@
 ---
 title: "How to Start a .Net Project in a Fast Way?"
 date: 2017-05-07
+category: .Net
+tags: [Project management, methodology, .Net]
 
 ---
 

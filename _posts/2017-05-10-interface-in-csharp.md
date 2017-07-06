@@ -1,6 +1,8 @@
 ---
 title: "Interface"
 date: 2017-05-10
+category: C#
+tags: [CSharp, theory, interface]
 
 ---
 

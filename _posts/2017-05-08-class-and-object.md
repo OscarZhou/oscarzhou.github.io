@@ -1,6 +1,8 @@
 ---
 title: "Class and Object"
 date: 2017-05-08
+category: C#
+tags: [CSharp, theory, basic]
 
 ---
 
