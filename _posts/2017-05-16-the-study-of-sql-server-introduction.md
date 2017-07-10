@@ -12,53 +12,13 @@ I will show you how to create and code a database according to requirement docum
 
 Due to that I don't want to make an article too long to read, so the special topic will be divided up into many parts in different articles. In this part, I will give a general idea of SQLServer.  
 
----
-
-1. [Introduction](http://oscarzhou.co.nz/blog/sqlserver/2017/05/16/the-study-of-sql-server-introduction)
-  
-2. 
-
----
-
-## The Concept of Entity and Database  
-
-**Entity (Object):** The objective existence of things is the entity.  
-
-**Database:** A data collection used for storing the information of these entities.  
-
---- 
-
-## The Features of the Database  
-1. Storing the mass data and data retrival is very easy.  
-2. Maintaining the consistency and integrity of the data information and achieving the share and security of the data  
-3. Generating new useful information by reorganizing and analyzing data  
-
-
-
----
-
-## The Basic Unit of The Entity Storing
-
-**Data Table:** is the basic unit of storing the entity information. The entities with the same type will be stored in the same Dataset.  
-
-**The other terminology of data table :**  
-1. Row (Record) : Entity  
-2. Column (Field) : Entity Attributes
-
-
 ***
 
-## DBMS (DataBase Management System)
+1. [Introduction](http://oscarzhou.co.nz/blog/sqlserver/2017/05/16/the-study-of-sql-server-introduction)
+2. [Create Database and Data Sheet](http://oscarzhou.co.nz/blog/sqlserver/2017/05/17/create-database-and-data-sheet)
+3.   
 
-What's the DBMS? In fact, it's a database management software. What we know is that the database is very important, but the reason why it is so important is that people can reorganize and analyze the data information by their way. That is, they can operate the database freely, which is where DBMS comes into the picture.
-
-The Fig.1 shows the process of operating database, which is very clearly.  
-
-<p align="center">
-  <img src="/images/post/20170516001.png" alt="DBMS" /><br/>
-  <center><h4><b>Figure 1</b></h4></center>
-</p>
-
+***
 As we see, the DBMS provides the data definiation language(DDL) so that users can use DDL to create the database easyly. And the DBMS also provides the data manipulation language(DML) to insert, update, delete and query data.  
 
 SQLServer is one of the Database Management System. In SQLServer, you can use simple SQL syntax to manipulate the data. (Fig.2)  
