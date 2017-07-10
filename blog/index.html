@@ -44,13 +44,13 @@ title: Oscar's Blog
             =======================
             {% endcomment %}
             {% for category in cates %}
-            <a href="/blog/{{category | slugify }}" class="btn btn-primary active" role="button" title="{{ category}}"> {{ category}}</a>
+            <a href="/blog/{{category | slugify }}.html" class="btn btn-primary active" role="button" title="{{ category}}"> {{ category}}</a>
             {% endfor %}
         </div>
     </div>
     <ul class="posts">
         {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span> » [<a href="/blog/{{ post.category | slugify }}">{{post.category}}</a>] <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+        <li><span>{{ post.date | date_to_string }}</span> » [<a href="/blog/{{ post.category | slugify }}.html">{{post.category}}</a>] <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
 </div>
