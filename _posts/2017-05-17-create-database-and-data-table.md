@@ -1,5 +1,5 @@
 ---
-title: "The Study of SQLServer: Create Database and Data Sheet"
+title: "The Study of SQLServer: Create Database and Data Table"
 date: 2017-05-17
 category: SQLServer
 tags: [SQLServer, Database, DML]
@@ -7,14 +7,14 @@ tags: [SQLServer, Database, DML]
 ---
 
 
-We have introduced some concepts about database and database management system in the last article. Today we will use sql to create database and data sheet.     
+We have introduced some concepts about database and database management system in the last article. Today we will use sql to create database and data table.     
   
 If you want to go through other relevant articles, please look at here: 
 
 ***
 
 1. [Introduction](http://oscarzhou.co.nz/blog/sqlserver/2017/05/16/the-study-of-sql-server-introduction)
-2. [Create Database and Data Sheet](http://oscarzhou.co.nz/blog/sqlserver/2017/05/17/create-database-and-data-sheet)
+2. [Create Database and Data Table](http://oscarzhou.co.nz/blog/sqlserver/2017/05/17/create-database-and-data-table)
 3. 
 
 ***  
@@ -93,7 +93,56 @@ Attaching database is adding the database file in the specific path into databas
 
 ***
 
+## Create Table
+        
+        create table 'table name'
+        (
+            Field1	DataType	TheCharacteristicOfColumn
+            Field2	DataType	TheCharacteristicOfColumn
+            Field3	DataType	TheCharacteristicOfColumn
+            ...
+        )
+        go
+
+The code above is the syntax to create the table.
+
+* **The contents of the characteristic of the column:**  
+        1. check if the field is NULL  
+        2. check if the field is flag column (automatic numbering)  
+        3. check if the field has the default value  
+        4. check if the field is primary key  
+         
+I will create an easy Student Information Table as the example.  
+
+        -- (1) create the table of the student information
+        use StudentManageDB
+        go
+        -- (2)
+        if exists(select * from sysobjects where name='Students')
+        drop table Students
+        go
+        -- (3)
+        create table Students
+        (
+            Student int identity(10000, 1), -- student No.
+            StudentName varchar(20) not null, -- name
+            Gender char(2) not null, 
+            Birthday datetime not null,
+            StudentIdNo numeric(18,0) not null,
+            Age int not null,
+            PhoneNumber varchar(50),
+            StudentAddress varchar(500),
+            ClassId int not null -- foreign key
+        )
+        go
+
+
+<mark>
+(1) specifies the database in which the data table is created<br/>
+(2) checks if the data table exists in the system data tables<br/>
+(3) defines the characteristic of the data table<br/>
+'go' stands for the end of the creation  
+</mark>
+
 Hope that it can help you guys.  
-
-
 
