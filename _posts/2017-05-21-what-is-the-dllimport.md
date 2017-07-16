@@ -102,7 +102,7 @@ The prerequisites is that you have Visual Studio IDE in your computer. In my cas
   <center><h4><b>Figure 1</b></h4></center>
 </p>
 
-The format is `dumpbin /export DLL's physical path`  
+The format is `dumpbin /exports DLL's physical path`  
 
 
 ***
