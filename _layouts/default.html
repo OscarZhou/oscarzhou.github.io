@@ -8,7 +8,9 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 			<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 			<link href="/css/bootstrap.css" rel="stylesheet" />
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+            <link href="/css/bootstrap.min.css.map" rel="stylesheet" />
+			<!--<link rel="stylesheet" type="text/css" href="/css/main.css">-->
+			<link rel="stylesheet" type="text/css" href="/css/default.css">
             <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
 		</head>
 		<body>
@@ -39,27 +41,31 @@
                 </nav>
             </header>
 
-			<div>
+			<!--<div class="content">-->
 
-                <div class="outer">
-                    <div class="middle">
-                        <div class="inner">
-                            <aside class="col-sm-2 col-md-2"></aside>
-                            {{ content }}
-                            <aside class="col-sm-2 col-md-2"></aside>
-                        </div><!-- /.container-fluid -->
-                    </div>
-                </div>
+                <!--<div class="outer">-->
+                    <!--<div class="middle">-->
+                        <!--<div class="inner">-->
+                            <!--<aside class="col-sm-2 col-md-2"></aside>-->
+                            <!--{{ content }}-->
+                            <!--<aside class="col-sm-2 col-md-2"></aside>-->
+                        <!--</div>&lt;!&ndash; /.container-fluid &ndash;&gt;-->
+                    <!--</div>-->
+                <!--</div>-->
 
 
-			
-			</div><!-- /.container -->
+			<!---->
+			<!--</div>&lt;!&ndash; /.container &ndash;&gt;-->
 
+
+            <div class="content">
+                {{ content }}
+            </div>
 
             <script id="dsq-count-scr" src="//oscarzhou-co-nz.disqus.com/count.js" async></script>
 
-            <footer>
-                <nav class="navbar navbar-default navbar-fixed-bottom">
+            <footer  class="navbar navbar-inverse navbar-fixed-bottom">
+                <nav>
                     <div class="container-fluid">
                         <a href="https://github.com/oscarzhou"><i class="fa fa-github"></i></a>
                         <a href="http://stackoverflow.com/users/3409400/oscar-zhou1989"><i class="fa fa-stack-overflow"></i></a>
@@ -68,10 +74,8 @@
                         <!--<a href="https://twitter.com/oscarzhou89"><i class="fa fa-twitter"></i></a>-->
                         <a href="http://www.oscarzhou.co.nz/blog/atom.xml"><i class="fa fa-rss"></i></a>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h5>Copyright 2017, Oscar Zhou</h5>
-                        </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h5>Copyright 2017, Oscar Zhou</h5>
                     </div>
                 </nav>
             </footer>
