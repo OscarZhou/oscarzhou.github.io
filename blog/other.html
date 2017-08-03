@@ -5,48 +5,46 @@ title:  Other
 ---
 
 <div class="blogs">
-    <div>
-        <div class="cates">
-            {% comment %}
-            =======================
-            The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
-            =======================
-            {% endcomment %}
+    <div class="cates">
+        {% comment %}
+        =======================
+        The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
+        =======================
+        {% endcomment %}
 
-            {% assign rawcates = "" %}
-            {% for post in site.posts %}
-            {% assign tcates = post.category | join:'|' | append:'|' %}
-            {% assign rawcates = rawcates | append:tcates %}
-            {% endfor %}
-            {% assign rawcates = rawcates | split:'|' | sort %}
+        {% assign rawcates = "" %}
+        {% for post in site.posts %}
+        {% assign tcates = post.category | join:'|' | append:'|' %}
+        {% assign rawcates = rawcates | append:tcates %}
+        {% endfor %}
+        {% assign rawcates = rawcates | split:'|' | sort %}
 
-            {% comment %}
-            =======================
-            The following part removes dulpicated tags and invalid tags like blank tag.
-            =======================
-            {% endcomment %}
+        {% comment %}
+        =======================
+        The following part removes dulpicated tags and invalid tags like blank tag.
+        =======================
+        {% endcomment %}
 
-            {% assign cates = "" %}
-            {% for category in rawcates %}
-            {% if category != "" %}
-            {% if cates == "" %}
-            {% assign cates = category | split:'|' %}
-            {% endif %}
-            {% unless cates contains category %}
-            {% assign cates = cates | join:'|' | append:'|' | append:category | split:'|' %}
-            {% endunless %}
-            {% endif %}
-            {% endfor %}
+        {% assign cates = "" %}
+        {% for category in rawcates %}
+        {% if category != "" %}
+        {% if cates == "" %}
+        {% assign cates = category | split:'|' %}
+        {% endif %}
+        {% unless cates contains category %}
+        {% assign cates = cates | join:'|' | append:'|' | append:category | split:'|' %}
+        {% endunless %}
+        {% endif %}
+        {% endfor %}
 
-            {% comment %}
-            =======================
-            The purpose of this snippet is to list all the tags you have in your site.
-            =======================
-            {% endcomment %}
-            {% for category in cates %}
-            <a href="/blog/{{category | slugify }}.html" class="btn btn-primary active" role="button" title="{{ category}}"> {{ category}}</a>
-            {% endfor %}
-        </div>
+        {% comment %}
+        =======================
+        The purpose of this snippet is to list all the tags you have in your site.
+        =======================
+        {% endcomment %}
+        {% for category in cates %}
+        <a href="/blog/{{category | slugify }}.html" class="btn btn-primary active" role="button" title="{{ category}}"> {{ category}}</a>
+        {% endfor %}
     </div>
     <ul class="posts">
         {% comment %}
@@ -54,14 +52,12 @@ title:  Other
         The purpose of this snippet is to list all your posts posted with a certain tag.
         =======================
         {% endcomment %}
-        <ul>
-            {% for post in site.posts %}
-            {% if post.category == page.title %}
-                    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+        {% for post in site.posts %}
+        {% if post.category == page.title %}
+        <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 
-            {% endif %}
-            {% endfor %}
-        </ul>
+        {% endif %}
+        {% endfor %}
 
     </ul>
 </div>

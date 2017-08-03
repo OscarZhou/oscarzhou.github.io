@@ -1,0 +1,42 @@
+.about p{
+    text-align: left;
+}
+.about ul{
+    text-align: left;
+}
+
+/* responsive to the width of the main part: header, body and footer */
+/*这个宽度适应iPhone 等大部分手机的尺寸。在这个尺寸中，Home可以在最左边*/
+@media (max-width: 414px){
+
+    section .about{
+        margin: 0 auto;
+    }
+
+}
+/* iPad大小，这个尺寸有固定宽度，所以nav都展开 */
+@media (min-width: 414px){
+
+    section .about{
+        margin:0 auto;
+        padding-bottom: 50px;
+    }
+
+}
+/* 这个是正常浏览器浏览时候的尺寸 */
+@media (min-width: 768px){
+
+    section .about{
+        margin: 0 auto;
+        padding-bottom: 50px;
+        width: 600px;
+    }
+}
+/*这个是大屏幕浏览器浏览时候的尺寸 */
+@media (min-width: 992px){
+    section .about{
+        margin: 0 auto;
+        padding-bottom: 50px;
+        width: 600px;
+    }
+}

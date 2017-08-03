@@ -1,0 +1,84 @@
+.post{
+    font-weight: 500;
+}
+.post > .blog-title{
+    text-align: left;
+    border-bottom: 1px solid #000000;
+
+}
+.post > .blog-title > h4{
+    text-align: right;
+}
+ul.posts {
+    list-style: none;
+    padding-top: 20px;
+}
+.blogs .cates{
+    padding: 10px 0;
+    border-bottom: 1px solid #000000;
+}
+
+.cates .btn-primary:active, .cates .btn-primary.active, .cates .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #777;
+    border-color: #999;
+}
+.cates .btn-primary:hover{
+    background-color: #333;
+}
+.cates a{
+    margin: 2px 2px;
+}
+.posts span {
+    font-weight: bold;
+}
+/* responsive to the width of the main part: header, body and footer */
+/*这个宽度适应iPhone 等大部分手机的尺寸。在这个尺寸中，Home可以在最左边*/
+@media (max-width: 414px){
+
+    section .post{
+        margin: 0 auto;
+        text-align: left;
+    }
+    ul.posts {
+        list-style: none;
+        padding-top: 20px;
+        text-align: left;
+        padding-left: 0px;
+    }
+
+}
+/* iPad大小，这个尺寸有固定宽度，所以nav都展开 */
+@media (min-width: 414px){
+
+    section .post{
+        margin:0 auto;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+
+
+}
+/* 这个是正常浏览器浏览时候的尺寸 */
+@media (min-width: 768px){
+
+    section .post{
+        margin: 0 auto;
+        text-align: left;
+        margin-top: -50px;
+        padding-bottom: 50px;
+        width: 600px;
+    }
+
+}
+/*这个是大屏幕浏览器浏览时候的尺寸 */
+@media (min-width: 992px){
+
+    section .post{
+        margin: 0 auto;
+        text-align: left;
+        margin-top: -50px;
+        padding-bottom: 50px;
+        width: 800px;
+    }
+}

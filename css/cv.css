@@ -1,0 +1,85 @@
+.cv{
+    font-weight: 500;
+}
+.cv > .download, .cv > .name{
+    font-weight: bold;
+}
+.cv > .cv_title{
+    font-weight: 800;
+}
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #333;
+    border-color: #555;
+}
+.cv > .item > h2{
+    color: #286090;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000000;
+}
+i.date{
+    color: #286090;
+}
+.cv > .item > .title2{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.cv > .item > .ul{
+    margin-bottom: 10px;
+}
+/* responsive to the width of the main part: header, body and footer */
+/*这个宽度适应iPhone 等大部分手机的尺寸。在这个尺寸中，Home可以在最左边*/
+@media (max-width: 414px){
+
+    section .cv{
+        text-align: left;
+    }
+    span.cv_detail{
+        text-align: left;
+        padding-left: 30px;
+    }
+}
+/* iPad大小，这个尺寸有固定宽度，所以nav都展开 */
+@media (min-width: 414px){
+
+    section .cv{
+        text-align: left;
+        padding-bottom: 50px;
+        margin-top: -20px;
+    }
+    span.cv_detail{
+        text-align: left;
+        padding-left: 30px;
+    }
+
+}
+/* 这个是正常浏览器浏览时候的尺寸 */
+@media (min-width: 768px){
+
+    section .cv{
+        margin: 0 auto;
+        text-align: left;
+        margin-top: -50px;
+        padding-bottom: 50px;
+        width: 600px;
+    }
+    span.cv_detail{
+        text-align: left;
+        padding-left: 50px;
+    }
+}
+/*这个是大屏幕浏览器浏览时候的尺寸 */
+@media (min-width: 992px){
+
+    section .cv{
+        margin: 0 auto;
+        text-align: left;
+        margin-top: -50px;
+        padding-bottom: 50px;
+        width: 800px;
+    }
+    span.cv_detail{
+         text-align: left;
+         padding-left: 50px;
+    }
+}
