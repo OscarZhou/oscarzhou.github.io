@@ -69,7 +69,7 @@ footer h5 {
 /* iPad大小，这个尺寸有固定宽度，所以nav都展开 */
 @media (min-width: 414px){
     header .container-fluid{
-        width: 500px;
+        width: 400px;
         margin: 0 auto;
     }
     section{
@@ -78,7 +78,6 @@ footer h5 {
         padding-bottom: 180px;
     }
     footer .container-fluid{
-        width: 500px;
         margin: 0 auto;
         text-align: center;
         font-size: 30px;
@@ -89,20 +88,20 @@ footer h5 {
 /* 这个是正常浏览器浏览时候的尺寸 */
 @media (min-width: 768px){
     header .container-fluid{
-        width: 500px;
-        margin: 0 auto;
+        width: 600px;
         padding: 0 20px;
+        margin: 0 auto;
     }
     section{
-        padding-top: 100px;
+        width: 600px;
+        padding-top: 50px;
         margin: 0 auto;
         padding-bottom: 180px;
         text-align: center;
     }
     footer .container-fluid{
-        width: 500px;
+        width: 600px;
         margin: 0 auto;
-        padding: 0 20px;
         text-align: center;
         font-size: 30px;
         background-color: #222;
@@ -112,19 +111,19 @@ footer h5 {
 @media (min-width: 992px){
     header .container-fluid{
         width: 800px;
-        margin: 0 auto;
         padding: 0 20px;
+        margin: 0 auto;
     }
     section{
-        padding-top: 100px;
-        margin: 0 auto;
+        width: 800px;
+        padding-top: 50px;
         padding-bottom: 180px;
+        margin: 0 auto;
         text-align: center;
     }
     footer .container-fluid{
         width: 800px;
         margin: 0 auto;
-        padding: 0 20px;
         text-align: center;
         font-size: 30px;
         background-color: #222;

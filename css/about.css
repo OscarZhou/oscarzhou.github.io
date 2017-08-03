@@ -8,77 +8,35 @@
 /* responsive to the width of the main part: header, body and footer */
 /*这个宽度适应iPhone 等大部分手机的尺寸。在这个尺寸中，Home可以在最左边*/
 @media (max-width: 414px){
-    header .container-fluid{
-        margin: 0 auto;
-    }
+
     section .about{
         margin: 0 auto;
     }
-    footer .container-fluid{
-        margin: 0 auto;
-        text-align: center;
-        font-size: 30px;
-        background-color: #222;
-    }
+
 }
 /* iPad大小，这个尺寸有固定宽度，所以nav都展开 */
 @media (min-width: 414px){
-    header .container-fluid{
-        width: 500px;
-        margin: 0 auto;
-    }
+
     section .about{
         margin:0 auto;
         padding-bottom: 50px;
-    }
-    footer .container-fluid{
-        width: 500px;
-        margin: 0 auto;
-        text-align: center;
-        font-size: 30px;
-        background-color: #222;
     }
 
 }
 /* 这个是正常浏览器浏览时候的尺寸 */
 @media (min-width: 768px){
-    header .container-fluid{
-        width: 500px;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
+
     section .about{
         margin: 0 auto;
         padding-bottom: 50px;
         width: 600px;
-    }
-    footer .container-fluid{
-        width: 500px;
-        margin: 0 auto;
-        padding: 0 20px;
-        text-align: center;
-        font-size: 30px;
-        background-color: #222;
     }
 }
 /*这个是大屏幕浏览器浏览时候的尺寸 */
 @media (min-width: 992px){
-    header .container-fluid{
-        width: 800px;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
     section .about{
         margin: 0 auto;
         padding-bottom: 50px;
         width: 600px;
-    }
-    footer .container-fluid{
-        width: 800px;
-        margin: 0 auto;
-        padding: 0 20px;
-        text-align: center;
-        font-size: 30px;
-        background-color: #222;
     }
 }
