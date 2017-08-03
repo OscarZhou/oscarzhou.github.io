@@ -1,52 +1,31 @@
-body{
-    width: 95%;
-    height: auto;
-    font-family: 'Merriweather', Georgia, Times;
-    font-size: 20px;
-    margin: 0 auto;
-}
-button, a{
-    transition: all 0.5s;
-}
-/*  header navigation style  */
-header{
-    font-family: 'Montserrat', Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-/*  main part: content style  */
-.content{
-    width: 95%;
-    font-weight: 800;
-    padding-top: 40px;
-    text-align: center;
-    margin: 0 auto;
-}
-
-/*  footer style  */
-footer{
-    font-family: 'Montserrat', Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: normal;
-    margin: 0 auto;
-    padding-top: 10px;
-    text-align: center;
-    padding-bottom: 10px;
-}
-footer a {
-    color: #70726F;
-    font-size: 30px;
-    padding: 10px;
-    transition: all .5s ease;
-}
-footer a:hover {
-    color: white;
-}
-footer h5 {
-    color: #efe6e6;
+.cv{
     font-weight: 500;
+}
+.cv > .download, .cv > .name{
+    font-weight: bold;
+}
+.cv > .cv_title{
+    font-weight: 800;
+}
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #333;
+    border-color: #555;
+}
+.cv > .item > h2{
+    color: #286090;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000000;
+}
+i.date{
+    color: #286090;
+}
+.cv > .item > .title2{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.cv > .item > .ul{
+    margin-bottom: 10px;
 }
 /* responsive to the width of the main part: header, body and footer */
 /*这个宽度适应iPhone 等大部分手机的尺寸。在这个尺寸中，Home可以在最左边*/
@@ -54,10 +33,12 @@ footer h5 {
     header .container-fluid{
         margin: 0 auto;
     }
-    section{
-        padding-top: 30px;
-        margin: 0 auto;
-        padding-bottom: 180px;
+    section .cv{
+        text-align: left;
+    }
+    span.cv_detail{
+        text-align: left;
+        padding-left: 30px;
     }
     footer .container-fluid{
         margin: 0 auto;
@@ -70,17 +51,21 @@ footer h5 {
 @media (min-width: 414px){
     header .container-fluid{
         width: 500px;
-        margin: 0 auto;
+        text-align: left;
+        margin-top: -50px;
     }
-    section{
-        padding-top: 50px;
-        margin:0 auto;
-        padding-bottom: 180px;
+    section .cv{
+        text-align: left;
+        padding-bottom: 50px;
+    }
+    span.cv_detail{
+        text-align: left;
+        padding-left: 30px;
     }
     footer .container-fluid{
         width: 500px;
-        margin: 0 auto;
-        text-align: center;
+        text-align: left;
+        margin-top: -50px;
         font-size: 30px;
         background-color: #222;
     }
@@ -93,11 +78,16 @@ footer h5 {
         margin: 0 auto;
         padding: 0 20px;
     }
-    section{
-        padding-top: 100px;
+    section .cv{
+        text-align: left;
+        margin-top: -50px;
+        padding-bottom: 50px;
+        width: 600px;
         margin: 0 auto;
-        padding-bottom: 180px;
-        text-align: center;
+    }
+    span.cv_detail{
+        text-align: left;
+        padding-left: 50px;
     }
     footer .container-fluid{
         width: 500px;
@@ -108,18 +98,23 @@ footer h5 {
         background-color: #222;
     }
 }
- /*这个是大屏幕浏览器浏览时候的尺寸 */
+/*这个是大屏幕浏览器浏览时候的尺寸 */
 @media (min-width: 992px){
     header .container-fluid{
         width: 800px;
         margin: 0 auto;
         padding: 0 20px;
     }
-    section{
-        padding-top: 100px;
+    section .cv{
+        text-align: left;
+        margin-top: -50px;
+        padding-bottom: 50px;
+        width: 800px;
         margin: 0 auto;
-        padding-bottom: 180px;
-        text-align: center;
+    }
+    span.cv_detail{
+         text-align: left;
+         padding-left: 50px;
     }
     footer .container-fluid{
         width: 800px;
@@ -130,5 +125,3 @@ footer h5 {
         background-color: #222;
     }
 }
-
-
