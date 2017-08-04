@@ -16,6 +16,20 @@ header{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+a.nav-log{
+    color: #ffffff;
+    font-size:30px;
+}
+a.nav-label{
+    background: #222;
+    color: #ffffff;
+}
+a.nav-label:hover{
+    background: #ffffff;
+    color:#222;
+    border-radius: 2%;
+    font-size: 26px;
+}
 /*  main part: content style  */
 .content{
     width: 95%;
@@ -31,9 +45,9 @@ footer{
     font-size: 20px;
     font-weight: normal;
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 5px;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 footer a {
     color: #70726F;
@@ -47,6 +61,7 @@ footer a:hover {
 footer h5 {
     color: #efe6e6;
     font-weight: 500;
+    margin: 2px;
 }
 /* responsive to the width of the main part: header, body and footer */
 /*这个宽度适应iPhone 等大部分手机的尺寸。在这个尺寸中，Home可以在最左边*/
