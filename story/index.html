@@ -1,0 +1,27 @@
+---
+layout: postimg
+title: Oscar's Story
+
+---
+<div class="story">
+    <ul>
+        {% for post in site.posts %}
+        {% if post.category == "Story"%}
+        <li>
+            <p align="center">
+                <a href="{{post.url}}">
+                    <img src="/images/postimg/{{post.code}}.jpg" alt="{{ post.title}}" width="200px" height="267px"/>
+                </a>
+            </p>
+            <p>
+                <center><h5>{{ post.date | date_to_string }}</h5></center>
+            </p>
+            <p class="img-name">
+                <center><h5><a href="{{post.url}}">{{post.title}}</a></h5></center>
+            </p>
+        </li>
+        {% endif%}
+        {% endfor %}
+    </ul>
+</div>
+
