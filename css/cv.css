@@ -72,11 +72,11 @@ i.date{
 @media (min-width: 992px){
 
     section .cv{
+        width: 800px;
         margin: 0 auto;
         text-align: left;
         margin-top: -50px;
         padding-bottom: 50px;
-        width: 800px;
     }
     span.cv_detail{
          text-align: left;
