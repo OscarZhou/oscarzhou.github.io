@@ -3,6 +3,7 @@ title: "Delegate Application Example"
 date: 2017-05-26
 category: C#
 tags: [C#, Delegate, Counter]
+comments: true
 
 ---
 

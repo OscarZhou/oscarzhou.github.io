@@ -3,6 +3,7 @@ title: "Advanced Delegate in C#"
 date: 2017-05-25
 category: C#
 tags: [C#, Delegate, Counter]
+comments: true
 
 ---
 

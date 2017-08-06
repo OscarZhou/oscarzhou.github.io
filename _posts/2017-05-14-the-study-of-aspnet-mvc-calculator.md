@@ -3,6 +3,7 @@ title: "The study of ASP.NET MVC (The sample of calculator)"
 date: 2017-05-14
 category: .Net
 tags: [.Net, MVC, example]
+comments: true
 
 ---
 
@@ -124,7 +125,7 @@ In this part, we followed the steps we talked in last article to implement this 
   
 ***
 
-If you want to read the relevant article, please go to [The study of ASP.NET MVC](http://oscarzhou.co.nz/blog/2017/05/11/the-study-of-aspnet-mvc)
+If you want to read the relevant article, please go to [The study of ASP.NET MVC](http://oscarzhou.co.nz/blog/.net/2017/05/11/the-study-of-aspnet-mvc)
 
 
 

@@ -3,6 +3,7 @@ title: "How to Import the Data in CSV File into Database?"
 date: 2017-05-23
 category: SQLServer
 tags: [SQLServer, Database, CSV]
+comments: true
 
 ---
 

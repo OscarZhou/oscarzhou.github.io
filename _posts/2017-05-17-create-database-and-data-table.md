@@ -3,6 +3,7 @@ title: "The Study of SQLServer: Create Database and Data Table"
 date: 2017-05-17
 category: SQLServer
 tags: [SQLServer, Database, DML]
+comments: true
 
 ---
 

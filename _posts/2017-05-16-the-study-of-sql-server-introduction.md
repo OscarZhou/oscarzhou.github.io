@@ -3,6 +3,7 @@ title: "The Study of SQLServer: Introduction"
 date: 2017-05-16
 category: SQLServer
 tags: [SQLServer, MVC, Database]
+comments: true
 
 ---
 
