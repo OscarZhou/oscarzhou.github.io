@@ -43,8 +43,8 @@ title: Oscar's Blog
         =======================
         {% endcomment %}
         {% for category in cates %}
-        {% if category != "Story"%}
-        <a href="/blog/{{category | slugify }}.html" class="btn btn-primary active" role="button" title="{{ category}}"> {{ category}}</a>
+        {% if category != "Story" %}
+            <a href="/blog/{{category | slugify }}.html" class="btn btn-primary active" role="button" title="{{ category}}"> {{ category}}</a>
         {% endif %}
         {% endfor %}
     </div>
