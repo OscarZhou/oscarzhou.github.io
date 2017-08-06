@@ -3,6 +3,7 @@ title: "var and Anonymous Class"
 date: 2017-05-29
 category: C#
 tags: [C#, MVC, Var, Anonymous Class]
+comments: true
 
 ---
 

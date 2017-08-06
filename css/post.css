@@ -46,6 +46,11 @@ ul.posts {
         padding-left: 0px;
     }
 
+    section .comment{
+        margin: 0 auto;
+        border-top: 1px solid #000000;
+    }
+
 }
 /* iPad大小，这个尺寸有固定宽度，所以nav都展开 */
 @media (min-width: 414px){
@@ -54,6 +59,10 @@ ul.posts {
         margin:0 auto;
         text-align: left;
         padding-bottom: 50px;
+    }
+    section .comment{
+        margin: 0 auto;
+        border-top: 1px solid #000000;
     }
 }
 /* 这个是正常浏览器浏览时候的尺寸 */
@@ -66,7 +75,11 @@ ul.posts {
         padding-bottom: 50px;
         width: 600px;
     }
-
+    section .comment{
+        margin: 0 auto;
+        width: 600px;
+        border-top: 1px solid #000000;
+    }
 }
 /*这个是大屏幕浏览器浏览时候的尺寸 */
 @media (min-width: 992px){
@@ -77,5 +90,11 @@ ul.posts {
         margin-top: -50px;
         padding-bottom: 50px;
         width: 800px;
+    }
+
+    section .comment{
+        margin: 0 auto;
+        width: 800px;
+        border-top: 1px solid #000000;
     }
 }

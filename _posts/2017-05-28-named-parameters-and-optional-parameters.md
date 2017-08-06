@@ -3,6 +3,7 @@ title: "Optional Parameters and Named Parameters"
 date: 2017-05-28
 category: C#
 tags: [C#, MVC, Optional Parameter, Named Parameter]
+comments: true
 
 ---
 
