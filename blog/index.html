@@ -43,11 +43,12 @@ title: Oscar's Blog
         =======================
         {% endcomment %}
         {% for category in cates %}
-        {% if category != "Story"%}
-        <a href="/blog/{{category | slugify }}.html" class="btn btn-primary active" role="button" title="{{ category}}"> {{ category}}</a>
+        {% if category != "Story" %}
+            <a href="/blog/{{category | slugify }}.html" class="btn btn-primary active" role="button" title="{{ category}}"> {{ category}}</a>
         {% endif %}
         {% endfor %}
     </div>
+    <a href="https://oscarzhou.co.nz{{ post.url }}#disqus_thread">0 Comments</a>
     <ul class="posts">
         {% for post in site.posts %}
         {% if post.category != "Story" %}

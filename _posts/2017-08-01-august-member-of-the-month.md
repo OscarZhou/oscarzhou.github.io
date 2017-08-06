@@ -1,7 +1,7 @@
 ---
 title: "The August's Member of The Month"
 date: 2017-08-01
-category: Images
+category: Story
 code: 20170801001
 ---
 

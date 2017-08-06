@@ -2,6 +2,9 @@
 layout: default
 notes: active
 ---
+{% if page.comments %}
+<a href="https://oscarzhou.co.nz{{ page.url }}#disqus_thread">0 Comments</a>
+{% endif %}
 
 <div class="notes">
 		<div class="note single">
@@ -27,3 +30,4 @@ notes: active
 			</div>
 		</div><!-- / .note .single -->
 </div><!-- /.notes -->
+

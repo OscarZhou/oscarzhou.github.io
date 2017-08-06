@@ -9,6 +9,10 @@
     font-weight: 500;
 }
 
+.story div{
+    text-align: center;
+}
+
 /* responsive to the width of the main part: header, body and footer */
 /*这个宽度适应iPhone 等大部分手机的尺寸。在这个尺寸中，Home可以在最左边*/
 @media (max-width: 414px){
@@ -33,6 +37,10 @@
         text-align: left;
         padding-bottom: 50px;
     }
+    .story ul{
+        list-style: none;
+        margin-top: 20px;
+    }
 }
 /* 这个是正常浏览器浏览时候的尺寸 */
 @media (min-width: 768px){
@@ -48,7 +56,7 @@
     .story li{
         width: 230px;
         text-align: left;
-        margin-right: 50px;
+        margin-right: 40px;
         margin-bottom: 10px;
         float: left;
     }
@@ -69,7 +77,11 @@
     .story li{
         width: 200px;
         text-align: left;
-        margin-right: 50px;
+        margin-right: 40px;
         float: left;
+        margin-bottom: 20px;
+    }
+    .story .img-name{
+        height: 20px;
     }
 }
