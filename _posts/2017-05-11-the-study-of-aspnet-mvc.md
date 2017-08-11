@@ -1,7 +1,7 @@
 ---
 title: "The study of ASP.NET MVC"
 date: 2017-05-11
-category: .Net
+category: MVC
 tags: [MVC, .Net, theory, introduction]
 comments: true
 

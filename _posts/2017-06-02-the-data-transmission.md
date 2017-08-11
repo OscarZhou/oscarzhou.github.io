@@ -1,7 +1,7 @@
 ---
 title: "从控制器到视图的数据传递方法汇总"
 date: 2017-06-02
-category: .Net
+category: MVC
 tags: [.Net, MVC, Data Transmission]
 comments: true
 
