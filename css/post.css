@@ -31,6 +31,11 @@ ul.posts {
 .posts span {
     font-weight: bold;
 }
+
+.post li{
+    margin-bottom: 15px;
+}
+
 /* responsive to the width of the main part: header, body and footer */
 /*这个宽度适应iPhone 等大部分手机的尺寸。在这个尺寸中，Home可以在最左边*/
 @media (max-width: 414px){
