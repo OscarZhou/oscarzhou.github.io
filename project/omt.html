@@ -27,7 +27,7 @@ title: Order Management Tool
 
         {% assign codes = "" %}
         {% for code in rawcodes %}
-        {% if code =='project' %}
+        {% if code =='omt' %}
         {% if codes == "" %}
         {% assign codes = code | split:'|' %}
         {% endif %}
@@ -45,7 +45,7 @@ title: Order Management Tool
 
         <ul class="posts">
             {% for post in site.posts %}
-            {% if post.code == "project" %}
+            {% if post.code == "omt" %}
             <li>
                 <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
             </li>

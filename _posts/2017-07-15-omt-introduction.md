@@ -3,7 +3,8 @@ title: "The Introduction of The Order Management Tool"
 date: 2017-07-15
 category: C#
 tags: [.NET, C#, Winform]
-code: project
+code: omt
+comments: true
 
 ---
 
