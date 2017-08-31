@@ -144,5 +144,17 @@ footer h5 {
         background-color: #222;
     }
 }
+.profile{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000000;
+}
 
+.recent-project{
+    padding-top: 20px;
+    text-align:left;
+}
 
+.recent-project p{
+    font-weight: 100;
+    padding-bottom:20px;
+}

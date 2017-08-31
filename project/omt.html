@@ -1,0 +1,58 @@
+---
+layout: post
+title: Order Management Tool
+
+---
+
+<div class="blogs">
+    <div class="cates">
+        {% comment %}
+        =======================
+        The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
+        =======================
+        {% endcomment %}
+
+        {% assign rawcodes = "" %}
+        {% for post in site.posts %}
+        {% assign tcodes = post.code | join:'|' | append:'|' %}
+        {% assign rawcodes = rawcodes | append:tcodes %}
+        {% endfor %}
+        {% assign rawcodes = rawcodes | split:'|' | sort %}
+
+        {% comment %}
+        =======================
+        The following part removes dulpicated tags and invalid tags like blank tag.
+        =======================
+        {% endcomment %}
+
+        {% assign codes = "" %}
+        {% for code in rawcodes %}
+        {% if code =='omt' %}
+        {% if codes == "" %}
+        {% assign codes = code | split:'|' %}
+        {% endif %}
+        {% unless codes contains code %}
+        {% assign codes = codes | join:'|' | append:'|' | append:code | split:'|' %}
+        {% endunless %}
+        {% endif %}
+        {% endfor %}
+
+        {% comment %}
+        =======================
+        The purpose of this snippet is to list all the tags you have in your site.
+        =======================
+        {% endcomment %}
+
+        <ul class="posts">
+            {% for post in site.posts %}
+            {% if post.code == "omt" %}
+            <li>
+                <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    <!--<a href="https://oscarzhou.co.nz{{ post.url }}#disqus_thread">0 Comments</a>-->
+
+</div>
