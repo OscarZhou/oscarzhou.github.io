@@ -104,7 +104,7 @@ footer h5 {
 @media (min-width: 768px){
     header .container-fluid{
         width: 600px;
-        padding: 0 20px;
+        padding: 0 10px;
         margin: 0 auto;
     }
     section{
@@ -144,6 +144,30 @@ footer h5 {
         background-color: #222;
     }
 }
+
+/*这个是超大屏幕浏览器浏览时候的尺寸 */
+@media (min-width: 1024px){
+    header .container-fluid{
+        width: 1000px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    section{
+        width: 1000px;
+        padding-top: 50px;
+        padding-bottom: 130px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    footer .container-fluid{
+        width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 30px;
+        background-color: #222;
+    }
+}
+
 .profile{
     padding-bottom: 20px;
     border-bottom: 1px solid #000000;
