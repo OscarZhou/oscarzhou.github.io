@@ -1,5 +1,5 @@
 ---
-title: "Hacker Rank: Day 15 to Day 27"
+title: "Hacker Rank: Day 15 to Day 17"
 date: 2017-08-13
 category: Code Challenge
 tags: [C#, Tutorial, Code Challenge]
@@ -287,7 +287,8 @@ n and p should be non-negative<br/>
         }
     }
     
-Note that `throw new Exception("n and p should be non-negative");`. In this case, what we learnt is about how to throw an exception in C#.  
+Note that `throw new Exception("n and p should be non-negative");`. In this case, what we learnt is about how to throw an exception in C#. Another point we should note is that when we create the class, we can not add the `public` modifier.  
+
  
 
 ***
