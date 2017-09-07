@@ -1,5 +1,6 @@
 .post{
     font-weight: 500;
+    font-size: medium;
 }
 .post > .blog-title{
     text-align: left;
@@ -33,7 +34,7 @@ ul.posts {
 }
 
 .post li{
-    margin-bottom: 15px;
+    margin-bottom: 2px;
 }
 
 /* responsive to the width of the main part: header, body and footer */
