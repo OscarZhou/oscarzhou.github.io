@@ -1,5 +1,6 @@
 .cv{
     font-weight: 500;
+    font-family: "Calibri Light";
 }
 .cv > .download, .cv > .name{
     font-weight: bold;

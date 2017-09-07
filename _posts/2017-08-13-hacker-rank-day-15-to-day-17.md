@@ -27,7 +27,7 @@ Complete the insert function in your editor so that it creates a new Node (pass 
 
 
 <p align="center">
-<img src="/images/post/20170813001.png" alt="Linked List" width="50%"  /><br/>
+<img src="/images/post/20170813001.png" alt="Linked List" width="70%"  /><br/>
 <center><h5><b>Figure 1</b></h5></center>
 </p>
 
