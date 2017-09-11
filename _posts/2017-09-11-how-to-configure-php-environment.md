@@ -34,14 +34,14 @@ If you have already got here, just keep clicking the next button.
 
 <p align="center">
 <img src="/images/post/20170911002.png" alt="installation interface" width="70%"  /><br/>
-<center><h5><b>Figure 1</b></h5></center>
+<center><h5><b>Figure 2</b></h5></center>
 </p>
 
 Install in process.  
   
 <p align="center">
 <img src="/images/post/20170911003.png" alt="successful interface" width="70%"  /><br/>
-<center><h5><b>Figure 1</b></h5></center>
+<center><h5><b>Figure 3</b></h5></center>
 </p>
 
 Install successfully.  
@@ -90,10 +90,11 @@ Let's create two files, *phptest.html* and *learnphp.php*.
     </body>
     </html>
 
+We can get a page like below.  
 
 <p align="center">
 <img src="/images/post/20170911004.png" alt="html page" width="70%"  /><br/>
-<center><h5><b>Figure 1</b></h5></center>
+<center><h5><b>Figure 4</b></h5></center>
 </p>
 
 **learnphp.php**  
@@ -113,4 +114,16 @@ Let's create two files, *phptest.html* and *learnphp.php*.
     </body>
     </html>
 
+When we click the submit button, the page will be redirected to another page like below.  
+
+
+<p align="center">
+<img src="/images/post/20170911005.png" alt="php page" width="40%"  /><br/>
+<center><h5><b>Figure 5</b></h5></center>
+</p>
+
+
+Well done. I finished my first php program.  
+
+***
 
