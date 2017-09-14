@@ -14,6 +14,7 @@ E.g. I want the class object to be able to choose from
 * Not Flying  
 * Fly with wings  
 * Fly super fast  
+
 When you need to use one of several behaviors dynamically.  
 
 ***
@@ -23,7 +24,12 @@ When you need to use one of several behaviors dynamically.
 * Avoids duplicate code
 * Keeps class changes from forcing other class changes
 * Can hide complicated / secret code from the user
-* Negative: Increased Number of Objects /Classes
+
+***
+  
+## Negatives
+
+* Increased Number of Objects / Classes
   
 *** 
 
