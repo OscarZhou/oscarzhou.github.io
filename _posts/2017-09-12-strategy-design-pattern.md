@@ -230,6 +230,13 @@ Define a family of algorithms, encapsulate each one, and make them interchangeab
             Console.WriteLine("Dog: " + sparky.tryToFly());
     }
     
+    
+<p align="center">
+<img src="/images/post/20170912004.png" alt="strategy diagram result" width="50%"  /><br/>
+<center><h5><b>Figure 2</b></h5></center>
+</p>
+
+
 ****
 
 Please take some time to digest strategy design pattern.  
