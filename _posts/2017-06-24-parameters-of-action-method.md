@@ -1,5 +1,5 @@
 ---
-title: "Action Method with Parameters"
+title: "Parameters of the Action Method"
 date: 2017-06-24
 category: MVC
 tags: [MVC, .NET]
