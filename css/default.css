@@ -1,7 +1,8 @@
 body{
     width: 95%;
     height: auto;
-    font-family: 'Merriweather', Georgia, Times;
+    /*font-family: 'Merriweather', Georgia, Times;*/
+    font-family: "Calibri Light";
     font-size: 20px;
     margin: 0 auto;
 }
