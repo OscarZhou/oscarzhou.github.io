@@ -37,10 +37,19 @@ ul.posts {
     margin-bottom: 2px;
 }
 
+.blog-logo img{
+    width: auto;
+    height:auto;
+    max-width:100%;
+    min-width:100%;
+}
+
 /* responsive to the width of the main part: header, body and footer */
 /*这个宽度适应iPhone 等大部分手机的尺寸。在这个尺寸中，Home可以在最左边*/
 @media (max-width: 414px){
-
+    .blog-logo{
+        text-align: center;
+    }
     section .post{
         margin: 0 auto;
         text-align: left;
@@ -60,6 +69,10 @@ ul.posts {
 }
 /* iPad大小，这个尺寸有固定宽度，所以nav都展开 */
 @media (min-width: 414px){
+    .blog-logo{
+        width:330px;
+        text-align: center;
+    }
 
     section .post{
         margin:0 auto;
@@ -73,6 +86,10 @@ ul.posts {
 }
 /* 这个是正常浏览器浏览时候的尺寸 */
 @media (min-width: 768px){
+    .blog-logo{
+        width:600px;
+        text-align: center;
+    }
 
     section .post{
         margin: 0 auto;
@@ -89,6 +106,10 @@ ul.posts {
 }
 /*这个是大屏幕浏览器浏览时候的尺寸 */
 @media (min-width: 992px){
+    .blog-logo{
+        width:800px;
+        text-align: center;
+    }
 
     section .post{
         margin: 0 auto;

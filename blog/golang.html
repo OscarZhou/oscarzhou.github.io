@@ -1,12 +1,12 @@
 ---
 layout: post
-title: C#
+title: GoLang
 
 ---
 
 <div class="blogs">
     <div class="blog-logo">
-        <img src="/images/bloglogo/Microsoft_CSharp_Logo.png" alt="C#">
+        <img src="/images/bloglogo/Golang_Logo.png" alt="Golang">
     </div>
     <div class="cates">
         {% comment %}
@@ -57,7 +57,6 @@ title: C#
         The purpose of this snippet is to list all your posts posted with a certain tag.
         =======================
         {% endcomment %}
-
         {% for post in site.posts %}
         {% if post.category == page.title %}
         <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
