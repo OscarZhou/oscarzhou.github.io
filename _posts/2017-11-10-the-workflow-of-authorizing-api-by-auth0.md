@@ -1,8 +1,8 @@
 ---
-title: "The workflow of API authorization by Auth0"
+title: "基于Auth0服务的API授权工作流"
 date: 2017-11-10
 category: Other
-tags: [Auth0, workflow, API, authorization]
+tags: [Auth0, API, 授权,工作流]
 comments: true
 
 ---
