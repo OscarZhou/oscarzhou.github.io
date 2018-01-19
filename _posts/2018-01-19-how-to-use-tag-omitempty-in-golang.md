@@ -2,6 +2,7 @@
 title: "如何使用标签omitempty"
 date: 2018-01-19
 category: GoLang
+tags: [Go language, tag, omitempty]
 comments: true
 
 ---
